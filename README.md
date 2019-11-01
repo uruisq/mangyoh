@@ -15,7 +15,7 @@
 |:-:|:-:|:-:|
 |PK|id||
 |FK|user_id|integer|
-||title<br>content<br>limit<br>priority<br>status<br>tag|string<br>text<br>datetime<br>integer<br>integer<br>string|
+||title<br>content<br>limit<br>priority<br>status|string<br>text<br>datetime<br>integer<br>integer|
 <br>
 
 |Tagging|||
