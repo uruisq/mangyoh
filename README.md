@@ -16,3 +16,16 @@
 |PK|id||
 |FK|user_id|integer|
 ||title<br>content<br>limit<br>priority<br>status<br>tag|string<br>text<br>datetime<br>integer<br>integer<br>string|
+<br>
+
+|Tagging|||
+|:-:|:-:|:-:|
+|PK|id||
+|FK|task_id|integer|
+|FK|tag_id|integer|
+<br>
+
+|Tag|||
+|:-:|:-:|:-:|
+|PK|id||
+||title|string|
